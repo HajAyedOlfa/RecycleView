@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyRecyclerView</string>
+
+    <string-array name="programmingLanguage">
+        <item>C++</item>
+        <item>C#</item>
+        <item>Java</item>
+        <item>Javascript</item>
+        <item>Kotlin</item>
+        <item>python</item>
+        <item>ruby</item>
+        <item>typeScript</item>
+        <item>VisualeStudio</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+    </string-array>
+</resources>
