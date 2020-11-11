@@ -32,14 +32,16 @@ public class SecondActivity extends AppCompatActivity {
         if(getIntent().hasExtra("myImage") && getIntent().hasExtra("data1")&& getIntent().hasExtra("data2")){
             data1 = getIntent().getStringExtra("data1");
             data2 = getIntent().getStringExtra("data2");
+            myImage = getIntent().getIntExtra("myImage", 1);
         }else{
             Toast.makeText(this, "No data", Toast.LENGTH_SHORT).show();
         }
     }
 
     private void setData(){
+        mainimageView.setImageResource(myImage);
         title.setText(data1);
         description.setText(data2);
-        mainimageView.setImageResource(myImage);
+
     }
 }
